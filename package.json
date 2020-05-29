@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -10,9 +12,17 @@
     "@types/node": "^12.12.42",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "es6-tween": "^5.5.11",
+    "peer": "^0.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-globe": "^4.0.0",
     "react-scripts": "3.4.1",
+    "three": "^0.117.1",
+    "three-glow-mesh": "^0.1.1",
+    "three-orbitcontrols": "^2.110.3",
+    "three.interaction": "^0.2.2",
+    "tippy.js": "^6.2.3",
     "typescript": "^3.7.5"
   },
   "scripts": {
