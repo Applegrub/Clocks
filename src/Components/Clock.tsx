@@ -1,15 +1,23 @@
 import React from "react";
+import styled from "@emotion/styled";
 
-interface IState {
-    date: number;
 
-}
-class Clock extends React.Component<IState> {
+const Clocks = styled.div`
+font-family: Montserrat, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 58px;
+line-height: 19px;
+letter-spacing: 4.76px;
+
+color: #FFFFFF;
+`
+export default class Clock extends React.Component{
     state = {
-        date: new Date()
+        date: new Date(),
     }
 
-
+    timerID: any = 0
     componentDidMount() {
         this.timerID = setInterval(
             () => this.tick(),
@@ -29,10 +37,9 @@ class Clock extends React.Component<IState> {
 
     render() {
         return (
-            <div>
-                <h1>Привет, мир!</h1>
-                <h2>Сейчас {this.state.date.toLocaleTimeString([, {hour12}])}.</h2>
-            </div>
+            <Clocks>
+                {this.state.date.toLocaleTimeString('en-US', {hour: '2-digit', minute:'2-digit'}).toLowerCase()}.
+            </Clocks>
         );
     }
 }

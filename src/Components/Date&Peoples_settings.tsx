@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "@emotion/styled";
+import Clock from './Clock'
+
 
 
 const Root = styled.div`
+position: relative;
 margin-top: 183px;
 height: 216px;
 width: 485px;
@@ -12,26 +15,28 @@ flex-direction: column;
 const Date_wrapper=styled.div`
 width: 412px;
 height: 216px;
+opacity: 0.3;
 background: linear-gradient(129.9deg, #FFFFFF -17.58%, #E4ECF8 126.97%);
 box-shadow: 0 0 30px rgba(13, 21, 63, 0.25);
 border-radius: 16px;
 `
 const Title = styled.div`
-margin: 19px 38px 0 37px;
+position: absolute;
+top:53px;
+left: 37px;
 font-family: Josefin Sans,sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 64px;
+line-height: 19px;
+
 letter-spacing: 7.76px;
+color: #FFFFFF;
 `
 const Date = styled.div`
-margin-left: 37px;
-font-family: Montserrat, sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 58px;
-
-letter-spacing: 4.76px;
+position:absolute;
+top: 118px;
+left: 38px
 `
 const Peoples_settings = styled.div`
 margin-top: 18px;
@@ -54,9 +59,9 @@ export default class Date_peoples_settings extends React.Component{
     render(): React.ReactNode {
         return <Root>
             <Date_wrapper>
-                <Title>DAYTIME</Title>
-                <Date>02:44 p.m. </Date>
             </Date_wrapper>
+            <Title>DAYTIME</Title>
+            <Date><Clock/></Date>
             <Peoples_settings>Show the other people's settings
             <Line/>
             </Peoples_settings>

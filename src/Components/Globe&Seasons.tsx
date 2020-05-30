@@ -3,6 +3,8 @@ import React from "react";
 import styled from "@emotion/styled";
 import Globe from "./Globe";
 import {css, jsx} from "@emotion/core";
+import SwitchLabel from "./Switch";
+
 
 const Root = styled.div`
 margin: 55px 73px 0 75px;
@@ -81,7 +83,6 @@ export default class Globe_and_seasons extends React.Component{
                                 </filter>
                             </defs>
                         </svg>
-
                     </Abscissa>
             </Ordinate>
         </Root>;
