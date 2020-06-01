@@ -1,14 +1,18 @@
+/** @jsx jsx */
 import React from "react";
 import ReactGlobe from 'react-globe';
 import styled from "@emotion/styled";
-import SeasonRing from '../assests/Season_ring.png'
+import {Circle_Slider} from "./Cicrle_slider";
+import {css, jsx} from "@emotion/core";
 
 
 const Root = styled.div`
 margin-right: 25px;
-height: 387px;
+height: 389px;
 width: 355px;
 position: relative;
+display: flex;
+align-items: center;
 
 `
 const Wrapper = styled.div`
@@ -17,12 +21,12 @@ top: 58.62px;
 left: 41.34px;
 width: 272.32px;
 height: 269.13px;
-
+outline: none;
 `
 export default class Globe extends React.Component{
     render(): React.ReactNode {
         return <Root>
-            <img src={SeasonRing} alt="Season Ring"/>
+            <Circle_Slider/>
             <Wrapper>
                 <ReactGlobe
                     globeOptions={{
@@ -31,6 +35,7 @@ export default class Globe extends React.Component{
                     cameraOptions={{
                         autoRotateSpeed: 3,
                         enableZoom: false,}}
+                    css = {css`outline: none;`}
                 />
             </Wrapper>
         </Root>;

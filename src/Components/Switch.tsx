@@ -1,27 +1,23 @@
 import React from "react";
-import FormGroup from '@material-ui/core/FormGroup';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Switch from '@material-ui/core/Switch';
+import './Switch.css'
 
 interface IProps {
-    control:boolean
+    isOn:boolean
 }
 
-export default class SwitchLabel extends React.Component<IProps>{
-    state ={
-        checked: this.props.control
-    }
 
-    handleChange = (e:React.ChangeEvent<HTMLInputElement>) => {
-      this.setState({checked: !this.state.checked} )
+export default class Switch extends React.Component<IProps> {
+    state = {value: this.props.isOn}
+
+    render() {
+        const {value} = this.state;
+        return <div className={'background'}>
+        <div className={value ? 'on' : 'off'}>
+            <div className='track' onClick={() => this.setState({value: !value})}>
+                <div className='thumb'/>
+            </div>
+        </div>
+    </div>;
     };
-    render(): React.ReactNode {
-    return (
-            <FormControlLabel
-                control={<Switch
-                    checked={this.state.checked}
-                    onChange={this.handleChange} />}
-                label=""
-            />
-    )}
 }
+
