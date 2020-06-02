@@ -35,10 +35,12 @@ export default class Clock extends React.Component{
         });
     }
 
+
     render() {
+        let time =this.state.date.toLocaleTimeString('en-US', {hour: '2-digit', minute:'2-digit'}).toLowerCase()
         return (
             <Clocks>
-                {this.state.date.toLocaleTimeString('en-US', {hour: '2-digit', minute:'2-digit'}).toLowerCase()}.
+                {time}
             </Clocks>
         );
     }

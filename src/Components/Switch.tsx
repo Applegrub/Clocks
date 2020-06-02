@@ -3,21 +3,15 @@ import './Switch.css'
 
 interface IProps {
     isOn:boolean
+    onClick?: () => void
 }
-
-
-export default class Switch extends React.Component<IProps> {
-    state = {value: this.props.isOn}
-
-    render() {
-        const {value} = this.state;
-        return <div className={'background'}>
-        <div className={value ? 'on' : 'off'}>
-            <div className='track' onClick={() => this.setState({value: !value})}>
-                <div className='thumb'/>
-            </div>
+const Switch: React.FunctionComponent<IProps> = ({isOn, onClick}) =>
+    <div className={'background'}>
+    <div className={isOn ? 'on' : 'off'}>
+        <div className='track' onClick={onClick}>
+            <div className='thumb'/>
         </div>
-    </div>;
-    };
-}
+    </div>
+</div>
+export default  Switch
 

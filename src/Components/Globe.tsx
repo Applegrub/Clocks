@@ -2,8 +2,9 @@
 import React from "react";
 import ReactGlobe from 'react-globe';
 import styled from "@emotion/styled";
-import {Circle_Slider} from "./Cicrle_slider";
 import {css, jsx} from "@emotion/core";
+import CircleStaticSlider from "./CircleStaticSlider";
+
 
 
 const Root = styled.div`
@@ -26,7 +27,7 @@ outline: none;
 export default class Globe extends React.Component{
     render(): React.ReactNode {
         return <Root>
-            <Circle_Slider/>
+            <CircleStaticSlider/>
             <Wrapper>
                 <ReactGlobe
                     globeOptions={{

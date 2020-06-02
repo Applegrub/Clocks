@@ -1,5 +1,4 @@
 import React from "react";
-// @ts-ignore
 import { CircleSlider } from "react-circle-slider";
 
 export class Circle_Slider extends React.Component {

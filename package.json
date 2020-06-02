@@ -1,6 +1,7 @@
 {
   "name": "globe",
   "version": "0.1.0",
+  "homepage": " https://github.com/Applegrub/Clocks",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.28",
@@ -17,11 +18,8 @@
     "gh-pages": "^3.0.0",
     "peer": "^0.5.3",
     "react": "^16.13.1",
-    "react-circle-slider": "^1.6.2",
     "react-dom": "^16.13.1",
     "react-globe": "^4.0.0",
-    "react-native-circular-slider": "^1.0.1",
-    "react-native-svg": "^12.1.0",
     "react-scripts": "3.4.1",
     "three": "^0.117.1",
     "three-glow-mesh": "^0.1.1",
@@ -34,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +50,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
   }
 }
