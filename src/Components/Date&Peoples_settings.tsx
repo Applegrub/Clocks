@@ -55,7 +55,7 @@ width: 76px;
 height: 0;
 border: 2px solid #001C52;
 `
-export default class Date_peoples_settings extends React.Component{
+export default class DatePeoplesSettings extends React.Component{
     render(): React.ReactNode {
         return <Root>
             <Date_wrapper>

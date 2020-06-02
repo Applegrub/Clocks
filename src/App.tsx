@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from "@emotion/styled";
 import Menu from "./Components/Menu";
-import Globe_and_seasons from "./Components/Globe&Seasons";
-import Date_peoples_settings from "./Components/Date&Peoples_settings";
+import GlobeAndSeasons from "./Components/Globe&Seasons";
+import DatePeoplesSettings from "./Components/Date&Peoples_settings";
 
 
 const Wrapper = styled.div`
@@ -28,9 +28,9 @@ function App() {
     <Root>
       <Wrapper>
         <Menu/>
-        <Body>
-            <Globe_and_seasons/>
-            <Date_peoples_settings/>
+        <Body>v
+            <GlobeAndSeasons/>
+            <DatePeoplesSettings/>
         </Body>
       </Wrapper>
     </Root>

@@ -35,7 +35,7 @@ margin-right: 25px;
 
 color: #FFFFFF;
 `
-export default class Globe_and_seasons extends React.Component{
+export default class GlobeAndSeasons extends React.Component{
     state = {
         isOn: true
     }

@@ -62,9 +62,9 @@ left: 195px
 export default class CircleStaticSlider extends React.Component {
     render(): React.ReactNode {
         return<Wrapper>
-            <SeasonsThumb><img src={seasonsThumb}/></SeasonsThumb>
-            <Winter><img src={winter}/></Winter>
-            <SummerThumb><Summer><img src= {summer} /></Summer></SummerThumb>
+            <SeasonsThumb><img src={seasonsThumb} alt='Seasons thumb'/></SeasonsThumb>
+            <Winter><img src={winter} alt='Winter'/></Winter>
+            <SummerThumb><Summer><img src= {summer} alt='Summer'/></Summer></SummerThumb>
             <Circle><Winter_thumb/></Circle>
         </Wrapper>;
     }
