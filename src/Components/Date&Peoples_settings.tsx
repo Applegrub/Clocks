@@ -12,7 +12,7 @@ width: 485px;
 display: flex;
 flex-direction: column;
 `
-const Date_wrapper=styled.div`
+const DateWrapper=styled.div`
 width: 412px;
 height: 216px;
 opacity: 0.3;
@@ -38,7 +38,7 @@ position:absolute;
 top: 118px;
 left: 38px
 `
-const Peoples_settings = styled.div`
+const PeoplesSettings = styled.div`
 margin-top: 18px;
 margin-left: 131px;
 display: flex;
@@ -58,13 +58,12 @@ border: 2px solid #001C52;
 export default class DatePeoplesSettings extends React.Component{
     render(): React.ReactNode {
         return <Root>
-            <Date_wrapper>
-            </Date_wrapper>
+            <DateWrapper/>
             <Title>DAYTIME</Title>
             <Date><Clock/></Date>
-            <Peoples_settings>Show the other people's settings
+            <PeoplesSettings>Show the other people's settings
             <Line/>
-            </Peoples_settings>
+            </PeoplesSettings>
         </Root>;
     }
 }

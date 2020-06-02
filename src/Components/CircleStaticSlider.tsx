@@ -38,7 +38,7 @@ position: absolute;
 left: 8px;
 top:  6px
 `
-const Winter_thumb = styled.div`
+const WinterThumb = styled.div`
 position: absolute;
 width: 40px;
 height: 40px;
@@ -65,7 +65,7 @@ export default class CircleStaticSlider extends React.Component {
             <SeasonsThumb><img src={seasonsThumb} alt='Seasons thumb'/></SeasonsThumb>
             <Winter><img src={winter} alt='Winter'/></Winter>
             <SummerThumb><Summer><img src= {summer} alt='Summer'/></Summer></SummerThumb>
-            <Circle><Winter_thumb/></Circle>
+            <Circle><WinterThumb/></Circle>
         </Wrapper>;
     }
 }
