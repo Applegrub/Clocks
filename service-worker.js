@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Applegrub/Clocks/precache-manifest.6868787ab8b992ce8946ccbc3ebdf11f.js"
+  "/Applegrub/Clocks/precache-manifest.76680cb7020b1035e09b50b54783083b.js"
 );
 
 self.addEventListener('message', (event) => {
