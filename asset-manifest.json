@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Applegrub/Clocks/static/css/main.bf512107.chunk.css",
+    "main.js": "/Applegrub/Clocks/static/js/main.8e584fda.chunk.js",
+    "main.js.map": "/Applegrub/Clocks/static/js/main.8e584fda.chunk.js.map",
+    "runtime-main.js": "/Applegrub/Clocks/static/js/runtime-main.3eee14a6.js",
+    "runtime-main.js.map": "/Applegrub/Clocks/static/js/runtime-main.3eee14a6.js.map",
+    "static/js/2.9de0518e.chunk.js": "/Applegrub/Clocks/static/js/2.9de0518e.chunk.js",
+    "static/js/2.9de0518e.chunk.js.map": "/Applegrub/Clocks/static/js/2.9de0518e.chunk.js.map",
+    "index.html": "/Applegrub/Clocks/index.html",
+    "precache-manifest.f2eafd117767ee27bc947eed4f3420f0.js": "/Applegrub/Clocks/precache-manifest.f2eafd117767ee27bc947eed4f3420f0.js",
+    "service-worker.js": "/Applegrub/Clocks/service-worker.js",
+    "static/css/main.bf512107.chunk.css.map": "/Applegrub/Clocks/static/css/main.bf512107.chunk.css.map",
+    "static/js/2.9de0518e.chunk.js.LICENSE.txt": "/Applegrub/Clocks/static/js/2.9de0518e.chunk.js.LICENSE.txt",
+    "static/media/Summer.svg": "/Applegrub/Clocks/static/media/Summer.89612e5b.svg",
+    "static/media/Winter.svg": "/Applegrub/Clocks/static/media/Winter.8a2ac873.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3eee14a6.js",
+    "static/js/2.9de0518e.chunk.js",
+    "static/css/main.bf512107.chunk.css",
+    "static/js/main.8e584fda.chunk.js"
+  ]
+}
