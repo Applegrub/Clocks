@@ -1,7 +1,7 @@
 {
   "name": "globe",
   "version": "0.1.0",
-  "homepage": " https://github.com/Applegrub/Clocks",
+  "homepage": " https://applegrub.github.io/Clocks/",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.28",

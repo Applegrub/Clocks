@@ -28,7 +28,7 @@ function App() {
     <Root>
       <Wrapper>
         <Menu/>
-        <Body>v
+        <Body>
             <GlobeAndSeasons/>
             <DatePeoplesSettings/>
         </Body>
