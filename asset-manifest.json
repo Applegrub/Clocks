@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Applegrub/Clocks/static/css/main.bf512107.chunk.css",
-    "main.js": "/Applegrub/Clocks/static/js/main.b3101eeb.chunk.js",
-    "main.js.map": "/Applegrub/Clocks/static/js/main.b3101eeb.chunk.js.map",
-    "runtime-main.js": "/Applegrub/Clocks/static/js/runtime-main.3eee14a6.js",
-    "runtime-main.js.map": "/Applegrub/Clocks/static/js/runtime-main.3eee14a6.js.map",
-    "static/js/2.9de0518e.chunk.js": "/Applegrub/Clocks/static/js/2.9de0518e.chunk.js",
-    "static/js/2.9de0518e.chunk.js.map": "/Applegrub/Clocks/static/js/2.9de0518e.chunk.js.map",
-    "index.html": "/Applegrub/Clocks/index.html",
-    "precache-manifest.76680cb7020b1035e09b50b54783083b.js": "/Applegrub/Clocks/precache-manifest.76680cb7020b1035e09b50b54783083b.js",
-    "service-worker.js": "/Applegrub/Clocks/service-worker.js",
-    "static/css/main.bf512107.chunk.css.map": "/Applegrub/Clocks/static/css/main.bf512107.chunk.css.map",
-    "static/js/2.9de0518e.chunk.js.LICENSE.txt": "/Applegrub/Clocks/static/js/2.9de0518e.chunk.js.LICENSE.txt",
-    "static/media/Summer.svg": "/Applegrub/Clocks/static/media/Summer.89612e5b.svg",
-    "static/media/Winter.svg": "/Applegrub/Clocks/static/media/Winter.8a2ac873.svg"
+    "main.css": "/Clocks/static/css/main.bf512107.chunk.css",
+    "main.js": "/Clocks/static/js/main.6c4b6868.chunk.js",
+    "main.js.map": "/Clocks/static/js/main.6c4b6868.chunk.js.map",
+    "runtime-main.js": "/Clocks/static/js/runtime-main.53511418.js",
+    "runtime-main.js.map": "/Clocks/static/js/runtime-main.53511418.js.map",
+    "static/js/2.9de0518e.chunk.js": "/Clocks/static/js/2.9de0518e.chunk.js",
+    "static/js/2.9de0518e.chunk.js.map": "/Clocks/static/js/2.9de0518e.chunk.js.map",
+    "index.html": "/Clocks/index.html",
+    "precache-manifest.fbb50f6bd0319a38afac8d7018ae7931.js": "/Clocks/precache-manifest.fbb50f6bd0319a38afac8d7018ae7931.js",
+    "service-worker.js": "/Clocks/service-worker.js",
+    "static/css/main.bf512107.chunk.css.map": "/Clocks/static/css/main.bf512107.chunk.css.map",
+    "static/js/2.9de0518e.chunk.js.LICENSE.txt": "/Clocks/static/js/2.9de0518e.chunk.js.LICENSE.txt",
+    "static/media/Summer.svg": "/Clocks/static/media/Summer.89612e5b.svg",
+    "static/media/Winter.svg": "/Clocks/static/media/Winter.8a2ac873.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3eee14a6.js",
+    "static/js/runtime-main.53511418.js",
     "static/js/2.9de0518e.chunk.js",
     "static/css/main.bf512107.chunk.css",
-    "static/js/main.b3101eeb.chunk.js"
+    "static/js/main.6c4b6868.chunk.js"
   ]
 }
